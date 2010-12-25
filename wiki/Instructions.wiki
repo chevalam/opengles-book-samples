@@ -3,12 +3,11 @@
 = Supported Platforms =
 
 The sample code from the book is available for the following platforms:
-
+  * [iPhone]
   * Windows (Microsoft Visual Studio) using the AMD OpenGL ES 2.0 Emulator or PowerVR Khronos OpenGL ES 2.0 SDK
-  * iPhone
   * WebGL
 		
-= iPhone =
+=[iPhone]=
 
 == Prerequisites ==
 In order to be able to build and run the code samples, you will need:
@@ -19,7 +18,7 @@ In order to be able to build and run the code samples, you will need:
 In addition to the source code repository, you can also download a package with the iPhone sample code from [http://www.opengles-book.com/OpenGL_ES_Programming_Guide_iPhone_v1.0.0.tar.gz http://www.opengles-book.com/OpenGL_ES_Programming_Guide_iPhone_v1.0.0.tar.gz].
 
 == Build Instructions ==
-Instructions for building and using the samples are in an e-Chapter on the iPhone 3GS available for download in PDF format from this link: [http://www.opengles-book.com/OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf">OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf http://www.opengles-book.com/OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf">OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf].
+Instructions for building and using the samples are in an e-Chapter on the iPhone 3GS available for download in PDF format from this link: [http://www.opengles-book.com/OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf http://www.opengles-book.com/OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf].
 		
 = Windows =
 
