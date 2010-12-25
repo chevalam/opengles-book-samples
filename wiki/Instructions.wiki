@@ -33,39 +33,39 @@ You will need to download and install the following:
 In order to build and run the code samples, you will need 
 			
   # AMD's OpenGL ES 2.0 Emulator which can be downloaded from [http://www.opengles-book.com/ESEmulator.2009-04-28-v1.4.APRIL_2009_RELEASE.msi].  Please note that the OpenGL ES 2.0 Emulator is no longer being actively developed or supported by AMD.  The most recent version is provided here for download as is, no support, feature enhancements or bug fixes will be provided by AMD for this software.
-  # In order to view the RenderMonkey example workspaces, you will need to download and install RenderMonkey v1.81.  This tool can be downloaded from AMD Developer Central at [http://developer.amd.com/gpu/rendermonkey/Pages/default.aspx].
+  # In order to view the `RenderMonkey` example workspaces, you will need to download and install `RenderMonkey` v1.81.  This tool can be downloaded from AMD Developer Central at [http://developer.amd.com/gpu/rendermonkey/Pages/default.aspx].
   # In order to build and run the OpenKODE sample in Chapter 15, you will need Acrodea's OpenKODE 1.0 Implementation for Windows. This can be downloaded from [http://www.acrodea.co.jp/en/openkode/] (NOTE: if you do not care to build/run the OpenKODE sample in Chapter 15, you can skip this step). 
 
 ==Examples==
-All of the code samples and RenderMonkey workspaces can either be checked out from the opengles-book-samples subversion tree or downloaded from the following link: [http://www.opengles-book.com/OpenGL_ES_Programming_Guide_v1.0.2.zip].
+All of the code samples and `RenderMonkey` workspaces can either be checked out from the opengles-book-samples subversion tree or downloaded from the following link: [http://www.opengles-book.com/OpenGL_ES_Programming_Guide_v1.0.2.zip].
 		
   * (Updated 4/19/09 - v1.0.2) Paul Bennett reported two bugs in esGenSphere() in esShapes.c..The new update includes his fixes.
   * (Updated 8/24/08 - v1.0.1) We have received reports that some users are having difficulty running the samples on Nvidia GPUs when using the AMD OpenGL ES 2.0 Emulator.  To workaround this issue, we updated the sample framework to be compatible with the Imagination Technologies PowerVR SDK.  For instructions on using the PowerVR SDK, please see [Instructions#Alternative: Setup Instructions Using the PowerVR SDK Alternative: Setup Instructions Using the PowerVR SDK].
-  *  For those users running on an Nvidia GPU and still wanting to use the RenderMonkey samples, Till Rathmann posted a workaround over at the AMD Developer Forums at the following [http://forums.amd.com/devforum/messageview.cfm?catid=347&threadid=106798 link] (7/26/09). 
+  *  For those users running on an Nvidia GPU and still wanting to use the `RenderMonkey` samples, Till Rathmann posted a workaround over at the AMD Developer Forums at the following [http://forums.amd.com/devforum/messageview.cfm?catid=347&threadid=106798 link] (7/26/09). 
 
 ==Setup Instructions==
   # Unzip `OpenGL_ES_Programming_Guide_v1.0.1.zip` to its own folder or checkout the opengles-book-samples project from subversion.
   # If you have not done so already, install AMD's OpenGL ES 2.0 Emulator.
-  # Copy the following files from C:\program files\AMD\OpenGL ES 2.0 Emulator v1.1\bin to the \Bin folder: 
+  # Copy the following files from `C:\program files\AMD\OpenGL ES 2.0 Emulator v1.1\bin` to the `\Bin` folder: 
     * libEGL.dll
     * libGLESv2.dll
-  # Copy the following files from C:\program files\AMD\OpenGL ES 2.0 Emulator v1.1\lib to the \Lib folder:
+  # Copy the following files from `C:\program files\AMD\OpenGL ES 2.0 Emulator v1.1\lib` to the `\Lib` folder:
     * libEGL.lib
     * libGLESv2.lib
-  # For the OpenKODE sample in Chapter 15, place the following file from Acrodea's OpenKODE Implementation to the _\Lib_ folder:
+  # For the OpenKODE sample in Chapter 15, place the following file from Acrodea's OpenKODE Implementation to the `\Lib` folder:
     * libKD.lib
 
 ==Alternative: Setup Instructions Using the PowerVR SDK==
 
-  # Unzip OpenGL_ES_Programming_Guide_v1.0.1.zip to its own folder.
+  # Unzip `OpenGL_ES_Programming_Guide_v1.0.1.zip` to its own folder.
   # Download Imagination Technologies Khronos OpenGL ES 2.0 SDK from [http://www.imgtec.com/powervr/insider/sdkdownloads/index.asp here].
-  # Copy the following files from C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib to the  \Bin folder:
+  # Copy the following files from `C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib` to the  `\Bin` folder:
     * libEGL.dll
     * libGLESv2.dll
-  # Copy the following files from C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib to the \Lib folder:
+  # Copy the following files from `C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib` to the `\Lib` folder:
     * libEGL.lib
     * libGLESv2.lib
-  # Copy all of the files from C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\Include to the \Common\Include folder (overwriting the existing headers).
+  # Copy all of the files from `C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\Include` to the `\Common\Include` folder (overwriting the existing headers).
   # For the OpenKODE sample in Chapter 15, place the following file from Acrodea's OpenKODE Implementation to the \Lib folder:
     * libKD.lib
 
