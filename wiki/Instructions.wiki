@@ -41,7 +41,7 @@ All of the code samples and RenderMonkey workspaces can either be checked out fr
 		
   * (Updated 4/19/09 - v1.0.2) Paul Bennett reported two bugs in esGenSphere() in esShapes.c..The new update includes his fixes.
   * (Updated 8/24/08 - v1.0.1) We have received reports that some users are having difficulty running the samples on Nvidia GPUs when using the AMD OpenGL ES 2.0 Emulator.  To workaround this issue, we updated the sample framework to be compatible with the Imagination Technologies PowerVR SDK.  For instructions on using the PowerVR SDK, please see [Instructions#Alternative: Setup Instructions Using the PowerVR SDK Alternative: Setup Instructions Using the PowerVR SDK].
-  *  For those users running on an Nvidia GPU and still wanting to use the RenderMonkey samples, Till Rathmann posted a workaround over at the AMD Developer Forums at the following [http://forums.amd.com/devforum/messageview.cfm?catid=347&amp;threadid=106798 link] (7/26/09). 
+  *  For those users running on an Nvidia GPU and still wanting to use the RenderMonkey samples, Till Rathmann posted a workaround over at the AMD Developer Forums at the following [http://forums.amd.com/devforum/messageview.cfm?catid=347&threadid=106798 link] (7/26/09). 
 
 ==Setup Instructions==
   # Unzip OpenGL_ES_Programming_Guide_v1.0.1.zip to its own folder or checkout the opengles-book-samples project from subversion.
