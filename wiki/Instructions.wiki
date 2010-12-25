@@ -1,0 +1,122 @@
+#summary Instructions for building the OpenGL ES 2.0 Programming Guide sample code.
+
+= Supported Platforms =
+
+The sample code from the book is available for the following platforms:
+
+  * Windows (Microsoft Visual Studio) using the AMD OpenGL ES 2.0 Emulator or PowerVR Khronos OpenGL ES 2.0 SDK
+  * iPhone
+  * WebGL
+		
+= iPhone =
+
+== Prerequisites ==
+In order to be able to build and run the code samples, you will need:
+		
+  * Mac OS X 10.5.7 or later
+  * iPhone SDK 3.0
+
+In addition to the source code repository, you can also download a package with the iPhone sample code from [http://www.opengles-book.com/OpenGL_ES_Programming_Guide_iPhone_v1.0.0.tar.gz http://www.opengles-book.com/OpenGL_ES_Programming_Guide_iPhone_v1.0.0.tar.gz].
+
+== Build Instructions ==
+Instructions for building and using the samples are in an e-Chapter on the iPhone 3GS available for download in PDF format from this link: [http://www.opengles-book.com/OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf">OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf http://www.opengles-book.com/OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf">OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf].
+		
+= Windows =
+
+== Prerequisites ==
+In order to be able to build and run the code samples, you will need:
+  * Microsoft Windows XP or Windows Vista/7
+  * An OpenGL 2.0-capable Graphics Card
+  * Microsoft Visual Studio 2005 or Microsoft Visual Studio  2008 (you can also use the free Express Edition available from Microsoft at [http://www.microsoft.com/express/download/ http://www.microsoft.com/express/download.].
+
+You will need to download and install the following:
+
+In order to build and run the code samples, you will need 
+			
+  # AMD's OpenGL ES 2.0 Emulator which can be downloaded from [http://www.opengles-book.com/ESEmulator.2009-04-28-v1.4.APRIL_2009_RELEASE.msi http://www.opengles-book.com/ESEmulator.2009-04-28-v1.4.APRIL_2009_RELEASE.msi].  Please note that the OpenGL ES 2.0 Emulator is no longer being actively developed or supported by AMD.  The most recent version is provided here for download as is, no support, feature enhancements or bug fixes will be provided by AMD for this software.
+  # In order to view the RenderMonkey example workspaces, you will need to download and install RenderMonkey v1.81.  This tool can be downloaded from AMD Developer Central at [http://developer.amd.com/gpu/rendermonkey/Pages/default.aspx http://developer.amd.com/gpu/rendermonkey/Pages/default.aspx].
+  # In order to build and run the OpenKODE sample in Chapter 15, you will need Acrodea's OpenKODE 1.0 Implementation for Windows. This can be downloaded from [http://www.acrodea.co.jp/en/openkode/ http://www.acrodea.co.jp/en/openkode/] (NOTE: if you do not care to build/run the OpenKODE sample in Chapter 15, you can skip this step). 
+
+		<h1>Examples</h1>
+		<p><b>All of the code samples and RenderMonkey workspaces can be 
+		downloaded from the following link:
+		</b>
+		</p>
+
+		<a href="http://www.opengles-book.com/OpenGL_ES_Programming_Guide_v1.0.2.zip">
+		http://www.opengles-book.com/OpenGL_ES_Programming_Guide_v1.0.2.zip</a>
+		
+		<br>
+		<ul>
+		<li>
+			<b>(Updated 4/19/09 - v1.0.2) Paul Bennett reported two bugs in 
+			esGenSphere() in esShapes.c.&nbsp; The new update includes his 
+			fixes.</b></li>
+			<li>
+			<b>(Updated 8/24/08 - v1.0.1)</b> We have received reports that some users are having difficulty running the samples on Nvidia GPUs when
+			using the AMD OpenGL ES 2.0 Emulator.  To workaround this issue, we updated the sample framework to be compatible with the
+			Imagination Technologies PowerVR SDK.  For instructions on using the PowerVR SDK, jump <a href="downloads.html#powervr">here</a>.
+			<ul>
+				<li>For those users running on an Nvidia GPU and still wanting 
+				to use the RenderMonkey samples, Till Rathmann posted a 
+				workaround over at the AMD Developer Forums at the following
+				<a href="http://forums.amd.com/devforum/messageview.cfm?catid=347&amp;threadid=106798">
+				link</a> (7/26/09). </li>
+			</ul>
+		</li>
+		</ul>
+
+		<p>&nbsp;</p>
+
+		<h1>Setup Instructions</h1>
+		<ol>
+			<li><strong>Unzip OpenGL_ES_Programming_Guide_v1.0.1.zip to its own folder.</strong></li>
+			<li><strong>If you have not done so already, install AMD's OpenGL ES 
+			2.0 Emulator.</strong></li>
+			<li><b>Copy the following files from <em>C:\program files\AMD\OpenGL 
+			ES 2.0 Emulator v1.1\bin</em> to the<em> \Bin</em> folder:</b><ul>
+				<li>libEGL.dll</li>
+				<li>libGLESv2.dll</li>
+			</ul>
+			</li>
+			<li><b>Copy the following files from <em>C:\program files\AMD\OpenGL 
+			ES 2.0 Emulator v1.1\</em>lib to the<em> \Lib</em> folder:</b><ul>
+				<li>libEGL.lib</li>
+				<li>libGLESv2.lib</li>
+			</ul>
+			</li>
+			<li><strong>For the OpenKODE sample in Chapter 15, place the 
+			following file from Acrodea's OpenKODE Implementation to the <em>
+			\Lib</em> folder:</strong><ul>
+				<li>libKD.lib</li>
+			</ul>
+			</li>
+		</ol>
+		
+		<a name="powervr"><h1>Alternative: Setup Instructions Using the PowerVR SDK</h1></a>
+		<ol>
+			<li><strong>Unzip OpenGL_ES_Programming_Guide_v1.0.1.zip to its own folder.</strong></li>
+			<li><strong>Download Imagination Technologies Khronos OpenGL ES 2.0 SDK from 
+			<a href="http://www.imgtec.com/powervr/insider/sdkdownloads/index.asp">http://www.imgtec.com/powervr/insider/sdkdownloads/index.asp</a>.</strong></li>
+			<li><b>Copy the following files from <em>C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib</em> to the<em> \Bin</em> folder:</b><ul>
+				<li>libEGL.dll</li>
+				<li>libGLESv2.dll</li>
+			</ul>
+			</li>
+			<li><b>Copy the following files from <em>C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib</em> to the<em> \Lib</em> folder:</b><ul>
+				<li>libEGL.lib</li>
+				<li>libGLESv2.lib</li>
+			</ul>
+			<li><strong>Copy all of the files from <em>C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\Include</em> to the <em> \Common\Include</em> folder (overwriting the existing headers).</strong></li>
+			</li>
+			<li><strong>For the OpenKODE sample in Chapter 15, place the 
+			following file from Acrodea's OpenKODE Implementation to the <em>
+			\Lib</em> folder:</strong><ul>
+				<li>libKD.lib</li>
+			</ul>
+			</li>
+		</ol>
+		<p><b><br />
+		</b>
+
+= WebGL =
