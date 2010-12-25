@@ -3,11 +3,11 @@
 = Supported Platforms =
 
 The sample code from the book is available for the following platforms:
-  * [iPhone]
+  * [Instructions#iPhone]
   * Windows (Microsoft Visual Studio) using the AMD OpenGL ES 2.0 Emulator or PowerVR Khronos OpenGL ES 2.0 SDK
   * WebGL
 		
-=[iPhone]=
+=iPhone=
 
 == Prerequisites ==
 In order to be able to build and run the code samples, you will need:
