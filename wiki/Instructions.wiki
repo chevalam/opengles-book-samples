@@ -44,7 +44,7 @@ All of the code samples and RenderMonkey workspaces can either be checked out fr
   *  For those users running on an Nvidia GPU and still wanting to use the RenderMonkey samples, Till Rathmann posted a workaround over at the AMD Developer Forums at the following [http://forums.amd.com/devforum/messageview.cfm?catid=347&threadid=106798 link] (7/26/09). 
 
 ==Setup Instructions==
-  # Unzip OpenGL_ES_Programming_Guide_v1.0.1.zip to its own folder or checkout the opengles-book-samples project from subversion.
+  # Unzip `OpenGL_ES_Programming_Guide_v1.0.1.zip` to its own folder or checkout the opengles-book-samples project from subversion.
   # If you have not done so already, install AMD's OpenGL ES 2.0 Emulator.
   # Copy the following files from C:\program files\AMD\OpenGL ES 2.0 Emulator v1.1\bin to the \Bin folder: 
     * libEGL.dll
