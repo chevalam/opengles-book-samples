@@ -57,29 +57,17 @@ All of the code samples and RenderMonkey workspaces can either be checked out fr
     * libKD.lib
 
 ==Alternative: Setup Instructions Using the PowerVR SDK==
-		<ol>
-			<li><strong>Unzip OpenGL_ES_Programming_Guide_v1.0.1.zip to its own folder.</strong></li>
-			<li><strong>Download Imagination Technologies Khronos OpenGL ES 2.0 SDK from 
-			<a href="http://www.imgtec.com/powervr/insider/sdkdownloads/index.asp">http://www.imgtec.com/powervr/insider/sdkdownloads/index.asp</a>.</strong></li>
-			<li><b>Copy the following files from <em>C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib</em> to the<em> \Bin</em> folder:</b><ul>
-				<li>libEGL.dll</li>
-				<li>libGLESv2.dll</li>
-			</ul>
-			</li>
-			<li><b>Copy the following files from <em>C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib</em> to the<em> \Lib</em> folder:</b><ul>
-				<li>libEGL.lib</li>
-				<li>libGLESv2.lib</li>
-			</ul>
-			<li><strong>Copy all of the files from <em>C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\Include</em> to the <em> \Common\Include</em> folder (overwriting the existing headers).</strong></li>
-			</li>
-			<li><strong>For the OpenKODE sample in Chapter 15, place the 
-			following file from Acrodea's OpenKODE Implementation to the <em>
-			\Lib</em> folder:</strong><ul>
-				<li>libKD.lib</li>
-			</ul>
-			</li>
-		</ol>
-		<p><b><br />
-		</b>
+
+  # Unzip OpenGL_ES_Programming_Guide_v1.0.1.zip to its own folder.
+  # Download Imagination Technologies Khronos OpenGL ES 2.0 SDK from [http://www.imgtec.com/powervr/insider/sdkdownloads/index.asp">http://www.imgtec.com/powervr/insider/sdkdownloads/index.asp here].
+  # Copy the following files from _C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib_  _\Bin) folder:
+    * libEGL.dll
+    * libGLESv2.dll
+  # Copy the following files from _C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\WindowsPC\Lib_ to the _\Lib_ folder:
+    * libEGL.lib
+    * libGLESv2.lib
+  # Copy all of the files from _C:\Imagination Technologies\PowerVR SDK\OGLES2_WINDOWS_PCEMULATION_2.02.22.0756\Builds\OGLES2\Include_ to the _\Common\Include_ folder (overwriting the existing headers).
+  # For the OpenKODE sample in Chapter 15, place the following file from Acrodea's OpenKODE Implementation to the _\Lib_ folder:
+    * libKD.lib
 
 = WebGL =
