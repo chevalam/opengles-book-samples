@@ -15,7 +15,7 @@ In order to be able to build and run the code samples, you will need:
   * Mac OS X 10.6.5 or later
   * iOS 4.2 SDK
 
-Please checkout the source control from the subversion repository by doing:
+Please checkout the source code from the subversion repository by doing:
 
 {{{
 svn checkout http://opengles-book-samples.googlecode.com/svn/trunk/ opengles-book-samples-read-only
