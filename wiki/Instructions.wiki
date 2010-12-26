@@ -12,10 +12,16 @@ The sample code from the book is available for the following platforms:
 == Prerequisites ==
 In order to be able to build and run the code samples, you will need:
 		
-  * Mac OS X 10.5.7 or later
-  * iPhone SDK 3.0
+  * Mac OS X 10.6.5 or later
+  * iOS 4.2 SDK
 
-In addition to the source code repository, you can also download a package with the iPhone sample code from [http://www.opengles-book.com/OpenGL_ES_Programming_Guide_iPhone_v1.0.0.tar.gz].
+Please checkout the source control from the subversion repository by doing:
+
+{{{
+svn checkout http://opengles-book-samples.googlecode.com/svn/trunk/ opengles-book-samples-read-only
+}}}
+
+The iPhone projects are located in the `/iPhone` directory.
 
 == Build Instructions ==
 Instructions for building and using the samples are in an e-Chapter on the iPhone 3GS available for download in PDF format from this link: [http://www.opengles-book.com/OpenGL_ES_20_Programming_Guide_iPhone_eChapter.pdf].
