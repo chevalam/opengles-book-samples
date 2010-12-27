@@ -6,6 +6,7 @@ The sample code from the book is available for the following platforms:
   * [Instructions#iPhone iPhone]
   * [Instructions#Windows Windows] (Microsoft Visual Studio) using the AMD OpenGL ES 2.0 Emulator or PowerVR Khronos OpenGL ES 2.0 SDK
   * [Instructions#WebGL WebGL]
+  * [Instructions#Android Android] 2.2+ (work-in-progress)
 		
 =iPhone=
 
@@ -76,4 +77,22 @@ All of the code samples and `RenderMonkey` workspaces can either be checked out 
     * libKD.lib
 
 = WebGL =
-The WebGL sample code is available from the opengles-book-samples subversion repository.  You can also view the WebGL sample code in action at [http://www.opengles-book.com/webgl.html].
+The WebGL sample code is available from the opengles-book-samples subversion repository.  
+
+{{{
+svn checkout http://opengles-book-samples.googlecode.com/svn/trunk/ opengles-book-samples-read-only
+}}}
+
+You can also view the WebGL sample code in action at [http://www.opengles-book.com/webgl.html].
+
+=Android=
+The Android port is still a work-in-progress, but I have ported some of the samples to Java on Android 2.2.  As of this writing, the emulator does not support OpenGL ES 2.0, so you will have to run the samples on your Android 2.2 device.  The code is available in the subversion repository in the `/Android` directory.
+
+==Building with the Eclipse ADT ==
+To build the code using Android SDK API 8 (or greater), in Eclipse:
+
+  # Do Import... -> "Existing Projects into Workspace"
+  # Point to the `/Android' subdirectory
+  # Select all of the example projects to import
+
+That's it.  You should then be able to run on an Android 2.2-device (I have tested them only on the Motorola DroidX, let me know if there are problems on your device).
