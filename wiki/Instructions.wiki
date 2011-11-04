@@ -7,7 +7,7 @@ The sample code from the book is available for the following platforms:
   * [Instructions#Windows Windows] (Microsoft Visual Studio) using the AMD OpenGL ES 2.0 Emulator or PowerVR Khronos OpenGL ES 2.0 SDK
   * [Instructions#WebGL WebGL]
   * [Instructions#Android Android] 2.2+
-  * [Instructions#LinuxX11 Linux] X11
+  * [Instructions#Linux Linux]
 		
 =iPhone=
 
@@ -98,8 +98,8 @@ To build the code using Android SDK API 8 (or greater), in Eclipse:
 
 That's it.  You should then be able to run on an Android 2.2-device (I have tested them only on the Motorola DroidX, let me know if there are problems on your device).
 
-=LinuxX11=
-The Linux versions of the exampels have been tested to run against Ubuntu Linux 11.04, 11.11 and Fedora Linux 15. Before trying to compile the source, make sure the development environment is set up correctly. To do so, run these commands based on your operating system:
+=Linux=
+The Linux versions of the examples have been tested to run against Ubuntu Linux 11.04, 11.11 and Fedora Linux 15. Before trying to compile the source make sure the development environment is set up correctly. To do so, run these commands based on your operating system:
 
 Ubuntu 11.04/11.11:
 {{{
@@ -113,7 +113,7 @@ su -c "yum install make gcc mesa-libGLES-devel mesa-libEGL-devel"
 
 Note that you will need superuser rights for the environment you are operating in.
 
-=Building for Linux/X11=
+==Building for Linux/X11==
 Once the development environment is setup, compiling of the examples is done using the included Makefile. Type:
 
 {{{
@@ -122,7 +122,7 @@ make
 
 and the process should be completed automatically. Final executables for each example are stored in the subfolder tree. The compiled executables are runnable from their respective places.
 
-=Other than Ubuntu/Fedora based Linux platforms=
+==Other than Ubuntu/Fedora based Linux platforms==
 
 The examples are compilable with any Linux/X11 based operating system, which can provide needed requirements. The exact requirements would be development headers for EGL and GLESv2. Those can be obtained from khronos.org directly. Another thing are the EGL and GLESv2 runtime libraries. Those files would be platform specific, and in that case it is suggested to contact your platform vendor for obtaining those. However, majority of the linux distributions are shipping Mesa, which includes GLESv2 and EGL implementations. For these examples the Mesa solution is sufficient, even without hardware acceleration enabled.
 
