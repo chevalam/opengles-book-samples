@@ -8,6 +8,7 @@ The sample code from the book is available for the following platforms:
   * [Instructions#WebGL WebGL]
   * [Instructions#Android Android] 2.2+
   * [Instructions#Linux Linux]
+  * [Instructions#Blackberry Blackberry]
 		
 =iPhone=
 
@@ -130,3 +131,8 @@ The examples have been test driven with following configurations:
   * ATI Radeon HD 3200 graphics with Mesa 7.11-0ubuntu3, Ubuntu 11.10
   * NVidia Quadro FX 2800M/PCI/SSE2 with Mesa 7.11-0ubuntu3, Ubuntu 11.10
   * NVidia Tegra 2, native EGL/GLESv2 drivers, Ubuntu 11.04
+
+
+=Blackberry=
+
+Please see the [http://code.google.com/p/opengles-book-samples/source/browse/trunk/BlackBerry/README.md README.md] file in the Blackberry folder of the source tree for instructions on installing and building the samples for the Blackberry Native SDK.
